@@ -1,6 +1,3 @@
-# LoginDemo
-主要使用SpringBoot+Jwt+Vue来实现了一个登录小demo，实现了token的创建和验证
-
 # SpringBoot+jwt+vue的一个登录验证
 
 实现流程主要是登录后，后端创建一个 jwt 的 token 然后返回给前端，前端将数据存到 localStorage 里，然后在 router 里设置路由读取 localStorage 里的 token 数据，使每次访问路由都去后端验证一下 token  
